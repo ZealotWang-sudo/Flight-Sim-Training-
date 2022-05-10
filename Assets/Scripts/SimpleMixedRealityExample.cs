@@ -48,4 +48,9 @@ public class SimpleMixedRealityExample : MonoBehaviour
             mixedRealityEnabled = mixedReality;
         }
     }
+
+    public void mixedRealityToggle()
+    {
+        mixedReality = !mixedReality;
+    }
 }
