@@ -53,4 +53,5 @@ public class SimpleMixedRealityExample : MonoBehaviour
     {
         mixedReality = !mixedReality;
     }
+
 }
