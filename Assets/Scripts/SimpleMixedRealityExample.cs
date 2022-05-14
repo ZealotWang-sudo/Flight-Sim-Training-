@@ -5,7 +5,7 @@ public class SimpleMixedRealityExample : MonoBehaviour
 {
     public bool mixedReality;
     public KeyCode MixedRealityToggle = KeyCode.Space;
-
+    //meta
     private bool mixedRealityEnabled = false;
     private bool originalOpaqueValue;
 
@@ -13,7 +13,7 @@ public class SimpleMixedRealityExample : MonoBehaviour
     {
         if (mixedReality)
         {
-            VarjoMixedReality.StartRender(); 
+            VarjoMixedReality.StartRender();
             VarjoMixedReality.EnableDepthEstimation();
             mixedRealityEnabled = true;
             originalOpaqueValue = VarjoRendering.GetOpaque();
@@ -41,7 +41,7 @@ public class SimpleMixedRealityExample : MonoBehaviour
             {
                 VarjoMixedReality.DisableDepthEstimation();
                 VarjoMixedReality.StopRender();
-             
+
                 VarjoRendering.SetOpaque(originalOpaqueValue);
             }
 

@@ -1,0 +1,2 @@
+Time: 00:27.08 Mode: VR Hit: 11 Mis-hit: 1
+Time: 00:24.08 Mode: VR Hit: 12 Mis-hit: 0
